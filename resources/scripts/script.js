@@ -1,0 +1,1 @@
+//not sure if any scripts are needed for this simple site
