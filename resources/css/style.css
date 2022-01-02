@@ -16,6 +16,12 @@ body{
 h1{
     font-family: babyPumpkin;
 }
+#wrapper{
+    background-color: tomato;
+    width:100%;
+    position: absolute;
+    height:400vh;
+}
 .section{
     width:100%;
     height:100vh;
@@ -23,8 +29,15 @@ h1{
 #splash{
     background-color: FF9B42;
 }
+.parallax{
+position:absolute;
+width: 100%;
+}
+#sun{
 
+}
 .panel{
+    top: 2000px;
     background-color: 70161E;
     width:30%;
     height:80%;
@@ -32,16 +45,10 @@ h1{
     border-radius: 50px;
     position:absolute;
 }
-.panel img{
-    position:absolute;
-    width:100%;
-    bottom:0px;
-    border-radius: 50px;
+#mainTitle{
+    margin-left:10%;
 }
-#splashLeft{
-    margin-left:15%;
-}
-#splashLeft h1{
+#mainTitle h1{
     font-size: 10em;
     line-height:.9em;
     margin:auto;
@@ -49,11 +56,8 @@ h1{
     margin-top: 10%;
     color:#FFFFFF;
 }
-#splashRight{
-    margin-right:15%;
-    right:0;
-}
 #about{
+    margin-top:1080px;
     background-color: 5448C8;
 }
 #projects{
