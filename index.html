@@ -3,13 +3,33 @@
 </head>
 <body>
     <div id="wrapper">
-            <img class="parallax" id="sun" src="resources/images/sun.png"/>
-            <img class="parallax" id="trees"src="resources/images/trees.png"/>
-            <img class="parallax" id="mountains"src="resources/images/mountains.png"/>
-            <div class="panel" id="mainTitle">
-                <h1>Chris Duffy</h1>
-                <p>Software Engineer and Designer</p>
+            <div class="section" id="splash">
+                <div class="panel" id="mainTitle">
+                    <h1>Chris Duffy</h1>
+                    <p>Hi! I'm Chris. I am a software engineer who likes solving problems and building cool things.</p>
+                    <p style="text-align:center;">
+                        <a href="https://github.com/Christopher-Duffy" target="blank">Github</a>
+                        <a href="resources/pdfs/Duffy Resume.pdf" target="blank">Resume</a>
+                    </p>
+                    <p>Scroll down to learn about me and see a few of my projects.</p>
+                </div>
+                <img id="splashImage" src="resources/images/cartoonChris.png"/>
             </div>
+            <div class="section" id="about"></div>
+            <div class="section" id="projects"></div>
+            <div class="section" id="contact"></div>
+            
+    </div>
+    <div id="navigationMenu">
+        <ul>
+            <li><a href="#splash">Home</a></li>
+            <li></li><a href="#about">About Me</a></li>
+            <li></li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div id="navLabel">
+            <button onclick="toggleMenu()">Menu</button>
+        </div>
     </div>
 
     <script src="resources/scripts/script.js"></script>

@@ -16,11 +16,21 @@ body{
 h1{
     font-family: babyPumpkin;
 }
+a{
+    border:2px solid white;
+    background-color: 5448C8;
+    padding: 5px;
+    border-radius: 5px;
+    color:white;
+    /* font-size: 3em; */
+    text-align: center;
+}
+a:hover{
+    background-color: 333333;
+    border-color: FF9B42;
+}
 #wrapper{
-    background-color: tomato;
-    width:100%;
-    position: absolute;
-    height:400vh;
+
 }
 .section{
     width:100%;
@@ -29,24 +39,24 @@ h1{
 #splash{
     background-color: FF9B42;
 }
-.parallax{
-position:absolute;
-width: 100%;
-}
-#sun{
-
+#splashImage{
+    float:right;
+    margin-top: 5%;
+    width:30%;
+    height:80%;
+    margin-right:15%;
 }
 .panel{
-    top: 2000px;
     background-color: 70161E;
     width:30%;
     height:80%;
     margin: 5%;
     border-radius: 50px;
-    position:absolute;
+
 }
 #mainTitle{
-    margin-left:10%;
+    float:left;
+    margin-left:15%;
 }
 #mainTitle h1{
     font-size: 10em;
@@ -56,10 +66,32 @@ width: 100%;
     margin-top: 10%;
     color:#FFFFFF;
 }
+p{
+    font-size: 2em;
+    margin:auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+    color:#FFFFFF;
+}
 #about{
-    margin-top:1080px;
     background-color: 5448C8;
 }
 #projects{
     background-color: C6D8AF;
+}
+#contact{
+    background-color: tomato;
+}
+#navigationMenu{
+    position: fixed;
+    width:20%;
+    height:30%;
+    right:0;
+    top:0%;
+    background-color: tomato;
+}
+#navLabel{
+    position: absolute;
+    top:100%;
 }
