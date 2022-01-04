@@ -33,7 +33,11 @@ function animatedScroll(divId){
     document.getElementById(divId).scrollIntoView({behavior:"smooth"});
 }
 function unCapturedClick(e){
+    var elementType= e.target.nodeName.toLowerCase();
     console.log(e.target);
+    if (elementType!='a' && elementType!='button' && elementType!='ul' && elementType!='li'){
+        moveNavUp();
+    }
 }
 
 
