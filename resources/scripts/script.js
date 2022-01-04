@@ -29,5 +29,8 @@ function moveNavDown(){
     }
     
 }
+function animatedScroll(divId){
+    document.getElementById(divId).scrollIntoView({behavior:"smooth"});
+}
 
 //window.scrollTo({ top: 0, behavior: 'smooth' });
