@@ -24,6 +24,7 @@ a{
     color:white;
     /* font-size: 3em; */
     text-align: center;
+    font-family: babyPumpkin;
 }
 a:hover{
     background-color: 333333;
@@ -81,14 +82,14 @@ p{
     background-color: C6D8AF;
 }
 #contact{
-    background-color: tomato;
+    background-color: 70161E;
 }
 #navigationMenu{
     position: fixed;
-    width:20%;
+    width:12%;
     height:29%;
     right:0;
-    top:0%;
+    top:-30%;
     background-color: tomato;
     border-bottom-left-radius: 10px;
     border-bottom:3px solid white;
@@ -98,7 +99,7 @@ p{
     list-style: none;
 }
 #navigationMenu li{
-    margin-top:7%;
+    margin-top: .5em;
     text-align: right;
     margin-right:10%;
     font-size: 2em;
@@ -110,9 +111,8 @@ p{
 
 }
 #menuButton{
-    width:200px;
-    height:50px;
-    font-family: agenzada;
+    height:2em;
+    font-family: babypumpkin;
     color:white;
     font-size:2em;
     background-color: tomato;
