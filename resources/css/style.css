@@ -76,15 +76,25 @@ p{
     background-color: 5448C8;
 }
 .card{
-    width:30%;
-    margin:5%;
+    width:25%;
+    height:80%;
+    margin:4%;
     float:left;
-    border-radius: 50px;;
+    border-radius: 50px;
+    
+}
+.cardImage{
+    width:80%;
+    margin-left:10%;
+    margin-top: 5%;
 }
 #schoolCard{
     background-color: FF9B42;
 }
 #skillsCard{
+    background-color: 70161E;
+}
+#statementCard{
     background-color: C6D8AF;
 }
 #projects{

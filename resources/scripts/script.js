@@ -32,5 +32,10 @@ function moveNavDown(){
 function animatedScroll(divId){
     document.getElementById(divId).scrollIntoView({behavior:"smooth"});
 }
+function unCapturedClick(e){
+    console.log(e.target);
+}
 
+
+document.onclick=unCapturedClick;
 //window.scrollTo({ top: 0, behavior: 'smooth' });
