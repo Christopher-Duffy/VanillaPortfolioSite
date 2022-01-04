@@ -30,9 +30,6 @@ a:hover{
     background-color: 333333;
     border-color: FF9B42;
 }
-#wrapper{
-
-}
 .section{
     width:100%;
     height:100vh;
@@ -54,7 +51,6 @@ a:hover{
     height:80%;
     margin: 5%;
     border-radius: 50px;
-
 }
 #mainTitle{
     float:left;
@@ -79,6 +75,18 @@ p{
 #about{
     background-color: 5448C8;
 }
+.card{
+    width:30%;
+    margin:5%;
+    float:left;
+    border-radius: 50px;;
+}
+#schoolCard{
+    background-color: FF9B42;
+}
+#skillsCard{
+    background-color: C6D8AF;
+}
 #projects{
     background-color: C6D8AF;
 }
@@ -97,16 +105,24 @@ p{
     border-left:3px solid white;
 }
 #navigationMenu ul{
+    margin-top: 0;
     list-style: none;
 }
-#navigationMenu li{
-    margin-top: .5em;
+#navigationMenu li button{
+    margin-top: .3em;
     font-size: 2em;
     text-align: center;
     margin-right:auto;
+    font-family: babypumpkin;
+    border:2px solid white;
+    background-color: 5448C8;
+    padding: 2px;
+    border-radius: 5px;
+    color:white;
 }
-#navigationMenu a{
-    width:12%;
+#navigationMenu li button:hover{
+    background-color: 333333;
+    border-color: FF9B42;
 }
 #navLabel{
     position: absolute;
@@ -146,4 +162,8 @@ p{
     border-top-right-radius: 10px;
     border:3px solid white;
     border-bottom:none;
+}
+.sectionJump:hover{
+    background-color: 333333;
+    color: FF9B42;
 }
