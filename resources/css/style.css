@@ -86,7 +86,7 @@ p{
 }
 #navigationMenu{
     position: fixed;
-    width:12%;
+    width:11%;
     height:29%;
     right:0;
     top:-30%;
@@ -100,9 +100,12 @@ p{
 }
 #navigationMenu li{
     margin-top: .5em;
-    text-align: right;
-    margin-right:10%;
     font-size: 2em;
+    text-align: center;
+    margin-right:auto;
+}
+#navigationMenu a{
+    width:12%;
 }
 #navLabel{
     position: absolute;
