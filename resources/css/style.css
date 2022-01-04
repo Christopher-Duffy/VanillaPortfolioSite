@@ -86,22 +86,42 @@ p{
 #navigationMenu{
     position: fixed;
     width:20%;
-    height:30%;
+    height:29%;
     right:0;
     top:0%;
     background-color: tomato;
+    border-bottom-left-radius: 10px;
+    border-bottom:3px solid white;
+    border-left:3px solid white;
+}
+#navigationMenu ul{
+    list-style: none;
+}
+#navigationMenu li{
+    margin-top:7%;
+    text-align: right;
+    margin-right:10%;
+    font-size: 2em;
 }
 #navLabel{
     position: absolute;
     top:100%;
     right:0%;
+
+}
+#menuButton{
+    width:200px;
+    height:50px;
+    font-family: agenzada;
+    color:white;
+    font-size:2em;
     background-color: tomato;
-    padding:5%;
+    border:none;
     border-bottom-left-radius: 10px;
     border-bottom:3px solid white;
     border-left:3px solid white;
 }
-#navLabel button{
-    width:100%;
-    height: 100%;
+#menuButton:hover{
+    background-color: 333333;
+    color: FF9B42;
 }
