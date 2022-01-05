@@ -35,6 +35,11 @@ a:hover{
     height:100vh;
     position:relative;
 }
+.stretchSection{
+    width:100%;
+    position:relative;
+    height:200vh;
+}
 #splash{
     background-color: FF9B42;
 }
@@ -99,6 +104,16 @@ p{
 }
 #projects{
     background-color: C6D8AF;
+}
+.project{
+    background-color: tomato;
+    width:30%;
+    border-radius: 50px;
+    float:left;
+    margin:10%;
+}
+.projectImageContainer img{
+    width:80%;
 }
 #contact{
     background-color: 70161E;
